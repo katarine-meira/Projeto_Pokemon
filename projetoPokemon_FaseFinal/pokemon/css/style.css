@@ -1,0 +1,71 @@
+
+.fonte{
+    height: 90px;
+    width: 220px;
+    width: 20%;
+    margin: auto;
+    display: block;
+    
+}
+
+header{
+    background-color:rgb(255,205,147);
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../pokemon/img/fundo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.cad2 {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(255,205,147);
+    background-color: rgb(232,160,86);
+    margin-top: 90px;
+    margin-bottom: 60px;
+    
+}
+.title {
+    color: rgb(43,112,183);
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+}
+.title2 {
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+}
+.title3 {
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+}
+.caixa3{
+    outline: unset;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid rgb(255,205,147);
+    background-color: rgb(255,205,147);
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+}
+.formi{
+    color:rgb(255,205,147);
+}
+.butao {
+    outline: unset;
+    padding: 8px;
+    width: 150px;
+    border: solid;
+    background-color: rgb(43,112,183);
+    border: 1px solid rgb(43,112,183);
+    
+}

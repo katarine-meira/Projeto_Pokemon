@@ -1,0 +1,12 @@
+a interface principal teria os "logins", informando os nomes de cada jogador
+vai ter também um botão nomeado "criar cenário de batalha", que vai chamar um arquivo chamado "arena" e inicializar um objeto da classe tabuleiro
+os nomes informados para cada jogador serão os parâmetros que o objeto da classe tabuleiro irá utilizar para inicializar os objetos da classe jogador
+
+já no arquivo arena, haverá um botão chamado "iniciar jogo", que vai chamar o método da classe tabuleiro "iniciarBatalha", dando inicio aos embates
+quando o botão "iniciar jogo" for apertado, aparecerá na tela os jogadores criados, e suas cartas pokemons. Cada confronto mostrará os pokemons que irão
+duelar, e qual ganhou com base em seu atributo "nivel".
+ao final dos embates, a interface será direcionada para outro arquivo chamado resumo da partida, mostrando qual jogador ganhou,
+e com quais pokemons ele ganhou
+
+
+

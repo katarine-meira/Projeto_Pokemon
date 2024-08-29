@@ -1,0 +1,282 @@
+
+.fonte{
+    height: 90px;
+    width: 220px;
+    width: 20%;
+    margin: auto;
+    display: block;
+    
+}
+
+header{
+    background-color:rgb(255,205,147);
+    width: 100%;
+}
+
+.fundo {
+    margin: 0;
+    padding: 0;
+    background-image: url("../pokemon/img/fundo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.fundo2{
+    background-color:rgb(255,205,147);
+}
+
+.cad2 {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(255,205,147);
+    background-color: rgb(232,160,86);
+    margin-top: 90px;
+    margin-bottom: 60px;
+    
+}
+.title {
+    color: rgb(43,112,183);
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+}
+.title2 {
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+}
+.title3 {
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+}
+.caixa3{
+    outline: unset;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid rgb(255,205,147);
+    background-color: rgb(255,205,147);
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+}
+.formi{
+    color:rgb(255,205,147);
+}
+.butao {
+    outline: unset;
+    padding: 8px;
+    width: 150px;
+    border: solid;
+    background-color: rgb(43,112,183);
+    border: 1px solid rgb(43,112,183);  
+}
+nav{
+    padding-left: 200px;
+}
+.link{
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid black;
+}
+nav a.focus,
+nav a:focus{
+    background: rgb(232,160,86);
+    border-bottom: 2px solid rgb(232,160,86);
+}
+.cad3{
+    background: rgb(232,160,86);
+    padding: 10px;
+    display: none;
+    border-top: 2px solid;
+    margin-top: -2px;
+    width: 1100px;
+    height: 450px;
+    margin-left: 130px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px black;
+}
+div.abas div:target{
+    display: block;
+}
+.inverter{
+    transform: scaleX(-1);
+}
+.fotos{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+}
+.fotos2{
+    width: 200px;
+    height: 200px;
+    float:right; 
+    margin-right:30px;
+}
+h1.font{
+    color: rgb(43,112,183);
+    font-family: 'Press Start 2P';
+    font-size: 25px;
+    margin-top: 10px;
+}
+.atributos{
+    width: 350px;
+    padding: 10px 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* opacity: 0.5; */
+    /* filter: blur(2px); */
+    background-color: white;
+    float:left; 
+    margin-right:0; 
+}
+.atributos2{
+    width: 350px;
+    padding: 10px 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* opacity: 0.5; */
+    /* filter: blur(2px); */
+    background-color: white;
+    float:right; 
+    margin-right:0; 
+
+}
+.margin{
+    margin-left: -10px;
+}
+.margin2{
+    margin-right: -10px;
+}
+.centerVs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 50px;
+}
+.vs{
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 100px;
+    color: rgb(43,112,183);
+}
+.jogador{
+    color: rgb(43,112,183);
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+}
+.nome{
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+}
+.tipo{
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+}
+.nome2{
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+    float:right; 
+    margin-right:0;
+}
+.tipo2{
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+    float:right; 
+    margin-right:0;
+}
+.nivel{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    /* opacity: 0.5; */
+    /* filter: blur(2px); */
+    background-color: black;
+    float:right; 
+    margin-right:0;
+    color: white;
+   
+}
+div.nivel h3{
+    font-size: 18px;
+    padding-top: 13px;
+    font-family: 'Press Start 2P';
+}
+.nivel2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    /* opacity: 0.5; */
+    /* filter: blur(2px); */
+    background-color: black;
+    float:left; 
+    margin-right:0;
+    color: white;
+}
+div.nivel2 h3{
+    font-size: 18px;
+    padding-top: 13px;
+    font-family: 'Press Start 2P';
+}
+.aba{
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 11px;
+    text-decoration: none;
+}
+.faixa{
+    width: 1100px;
+    padding: 5px 5px;
+    background-color:#363636;
+    margin-left: -10px;
+}
+div.faixa h3{
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 17px;
+}
+div.faixa h2{
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+}
+.vencedores{
+    width: 380px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    background-color: white; 
+}
+.test{
+    margin-left: 50px;
+   
+}
+.tamFoto{
+    height: 70px;
+    width: 70px;
+}
+.tamNivel{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    float:right; 
+    margin-right:-10px;
+    margin-bottom: 0px;
+   
+}
+.nomeResumo{
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+    padding-top: 10px;
+}
+.tipoResumo{
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+}
